@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page style */
+
+body {
+    background-color: #A06CD5;
+    text-align: center;
+}
+
+.color {
+    background-color: #6247AA;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+button {
+    color: #fff ;
+    background-color: #191913;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: #000;
+}
+
+/* Game Start Up Style */
+
+.gameStartUp{
+    height: 80vb;
+    width: 100vb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+    padding-left: 21rem;
+    margin-top: 1rem;
+}
+
+.gameStartUp p {
+    height: 8vmin;
+    width: 48vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem; 
+}
+
+.input {
+    height: 5vmin;
+    width: 40vmin;
+    font-size: 2rem;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 3vmin;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+}
+
+.submit:hover{
+    border: 1px solid black;
+}
+
+/* Game Style */
+
+.container {
+    height: 70vb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerName1 {
+    margin-right: auto;
+}
+
+#playerName2 {
+    margin-left: auto;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #da4167;
+    background-color: #ebebd3;
+}
+
+.playerName {
+    font-size: 8vmin;
+    margin: 22vmin;
+}
+
+#msgContainer {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* Reset button */
+
+#resetBtn {
+    padding: 1rem;
+    font-size: 3vmin;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
+/* New Game Button */
+
+#newGame {
+    padding: 1rem;
+    font-size: 3vmin;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem        ;
+}
+
+.display{
+    display: none;
+}
